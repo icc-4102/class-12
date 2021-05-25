@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/covidCasesFragment">
+
+    <fragment
+        android:id="@+id/covidCasesFragment"
+        android:name="com.example.clase10.covidCases.CovidCasesFragment"
+        android:label="fragment_covid_casses"
+        tools:layout="@layout/fragment_covid_casses" >
+        <action
+            android:id="@+id/action_to_favoritesFragment"
+            app:destination="@id/favoritesFragment" />
+        <action
+            android:id="@+id/action_to_covidCaseDetailFragment"
+            app:destination="@id/covidCaseDetailFragment" >
+            <argument
+                android:name="country"
+                app:argType="string" />
+        </action>
+
+    </fragment>
+    <fragment
+        android:id="@+id/favoritesFragment"
+        android:name="com.example.clase10.covidCases.FavoritesFragment"
+        android:label="FavoritesFragment"
+        tools:layout="@layout/fragment_covid_casses">
+        <action
+            android:id="@+id/action_to_covidCaseDetailFragment"
+            app:destination="@id/covidCaseDetailFragment" >
+            <argument
+                android:name="country"
+                app:argType="string"/>
+        </action>
+    </fragment>
+    <fragment
+        android:id="@+id/covidCaseDetailFragment"
+        android:name="com.example.clase10.covidCases.CovidCaseDetailFragment"
+        android:label="activity_covid_case_detail"
+        tools:layout="@layout/activity_covid_case_detail" >
+        <argument
+            android:name="country"
+            app:argType="string" />
+    </fragment>
+</navigation>

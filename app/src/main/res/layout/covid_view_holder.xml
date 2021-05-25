@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:id="@+id/flag_imageView"
+            />
+
+        <TextView
+            android:id="@+id/country_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintStart_toEndOf="@+id/textView"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Pais" />
+
+        <TextView
+            android:id="@+id/positive_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginStart="40dp"
+            android:textColor="@color/red"
+            app:layout_constraintStart_toStartOf="@id/country_text_view"
+            app:layout_constraintTop_toBottomOf="@+id/country_text_view"
+            tools:text="Positivos" />
+
+        <TextView
+            android:id="@+id/negative_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/green"
+            app:layout_constraintTop_toBottomOf="@+id/positive_text_view"
+            app:layout_constraintStart_toStartOf="@id/country_text_view"
+            tools:layout_editor_absoluteX="98dp"
+            tools:text="Recuperados" />
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
