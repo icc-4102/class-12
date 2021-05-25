@@ -1,4 +1,4 @@
-package com.example.clase10.covidCases
+package com.example.clase12.covidCases
 
 import android.os.Bundle
 import android.view.*
@@ -7,9 +7,9 @@ import androidx.fragment.app.activityViewModels
 import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.clase10.OnClickListener
-import com.example.clase10.R
-import com.example.clase10.model.CovidCaseModel
+import com.example.clase12.OnClickListener
+import com.example.clase12.R
+import com.example.clase12.model.CovidCaseModel
 
 class FavoritesFragment : Fragment(), OnClickListener {
 

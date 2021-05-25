@@ -1,9 +1,9 @@
-package com.example.clase10.navigation
+package com.example.clase12.navigation
 
 import androidx.navigation.findNavController
-import com.example.clase10.MainActivity
-import com.example.clase10.R
-import com.example.clase10.covidCases.CovidCasesFragmentDirections
+import com.example.clase12.MainActivity
+import com.example.clase12.R
+import com.example.clase12.covidCases.CovidCasesFragmentDirections
 
 class Navigator(val activity: MainActivity?) {
 

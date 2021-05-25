@@ -1,4 +1,4 @@
-package com.example.clase10.model
+package com.example.clase12.model
 
 import androidx.room.Dao
 import androidx.room.Insert

@@ -1,19 +1,16 @@
-package com.example.clase10.covidCases
+package com.example.clase12.covidCases
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Button
-import android.widget.ImageView
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import androidx.lifecycle.Observer
 import androidx.navigation.fragment.navArgs
-import com.example.clase10.R
-import com.example.clase10.extensions.loadImage
-import com.example.clase10.service.LocationService
+import com.example.clase12.R
+import com.example.clase12.service.LocationService
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.MapView
 import com.google.android.gms.maps.model.LatLng

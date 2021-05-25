@@ -1,16 +1,16 @@
-package com.example.clase10.covidCases
+package com.example.clase12.covidCases
 
 import android.app.Application
 import android.os.Handler
 import android.os.Looper
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.MutableLiveData
-import com.example.clase10.MainActivity
-import com.example.clase10.model.CovidCaseEntityMapper
-import com.example.clase10.model.CovidCaseModel
-import com.example.clase10.model.CovidCasesDao
-import com.example.clase10.model.DatabaseRepository
-import com.example.clase10.navigation.Navigator
+import com.example.clase12.MainActivity
+import com.example.clase12.model.CovidCaseEntityMapper
+import com.example.clase12.model.CovidCaseModel
+import com.example.clase12.model.CovidCasesDao
+import com.example.clase12.model.DatabaseRepository
+import com.example.clase12.navigation.Navigator
 import java.util.concurrent.ExecutorService
 import java.util.concurrent.Executors
 

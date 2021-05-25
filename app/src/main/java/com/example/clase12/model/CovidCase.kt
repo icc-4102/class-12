@@ -1,4 +1,4 @@
-package com.example.clase10
+package com.example.clase12
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize

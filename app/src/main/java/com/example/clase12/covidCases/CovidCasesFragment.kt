@@ -1,4 +1,4 @@
-package com.example.clase10.covidCases
+package com.example.clase12.covidCases
 
 import android.location.Geocoder
 import android.os.Bundle
@@ -7,9 +7,9 @@ import androidx.fragment.app.*
 import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.clase10.*
-import com.example.clase10.model.CovidCaseModel
-import com.example.clase10.service.LocationService
+import com.example.clase12.*
+import com.example.clase12.model.CovidCaseModel
+import com.example.clase12.service.LocationService
 import java.util.*
 
 class CovidCasesFragment : Fragment(), OnClickListener {
